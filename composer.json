@@ -1,0 +1,31 @@
+{
+    "name": "chitanok/line-api-laravel",
+    "description": "This is a sample implementation of LINE API in Laravel",
+    "keywords": [
+        "line api",
+        "line api laravel",
+        "sample code for line api",
+        "laravel",
+        "lumen",
+        "messaging"
+    ],
+    "homepage": "https://github.com/chitanok/laravel-line-api",
+    "type": "laravel-package",
+    "require": {
+        "linecorp/line-bot-sdk": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chitanok\\LineApiLaravel\\": "Chitanok/line-api-laravel/src"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chitano kumar",
+            "email": "chitanok@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
