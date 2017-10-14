@@ -19,6 +19,13 @@
             "Chitanok\\LineApiLaravel\\": "src/"
         }
     },
+    "extra": {
+    "laravel": {
+        "providers": [
+            "Chitanok\\LineApiLaravel\\LineMessageServiceProvider"
+        ]
+    }
+    },
     "license": "MIT",
     "authors": [
         {
