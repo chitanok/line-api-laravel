@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Chitanok\\LineApiLaravel\\": "Chitanok/line-api-laravel/src"
+            "Chitanok\\LineApiLaravel\\": "vendor/Chitanok/line-api-laravel/src"
         }
     },
     "license": "MIT",
