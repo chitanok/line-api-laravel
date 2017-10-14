@@ -23,7 +23,10 @@
     "laravel": {
         "providers": [
             "Chitanok\\LineApiLaravel\\LineMessageServiceProvider"
-        ]
+        ],
+        "aliases": {
+            "LineMessage": "Chitanok\\LineApiLaravel\\Facade"
+        }
     }
     },
     "license": "MIT",

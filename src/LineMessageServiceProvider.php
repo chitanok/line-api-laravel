@@ -24,5 +24,6 @@ class LineMessageServiceProvider extends ServiceProvider
     public function register()
     {
         //
+        $this->app->alias(LineMessage::class, 'line-message');
     }
 }
